@@ -13,7 +13,7 @@ Problem Definition: To determine which demographic groups respond best to which 
 ### Dataset Overview
 
 This data set is a simplified version of the real Starbucks app because the underlying simulator only has one product whereas Starbucks actually sells dozens of products.
-The data is contained in three files:
+There is a folder call 'data' containing three files:
 
 - portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)
 -  profile.json - demographic data for each customer
@@ -45,9 +45,20 @@ The transactional data shows user purchases made on the app including the timest
 
 ### File Overview
 
-Starbucks_Capstone_notebook.ipynb
+Starbucks_Capstone_notebook.ipynb:
 
 This notebook contains whole process of how I explore data, clean data and visualize data
+
+'data' folder: 
+
+- portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)
+-  profile.json - demographic data for each customer
+- transcript.json - records for transactions, offers received, offers viewed, and offers completed
+
+pic1 and pic2:
+
+This picture is to display how to setup a necessary environment in case we need it
+
 
 ### Analysis
 
