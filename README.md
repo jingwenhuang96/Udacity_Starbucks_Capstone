@@ -1,5 +1,6 @@
 # Starbucks Capstone Challenge
 
+
 ### Project Overview
 
 This is a capstone project of the Data Scientist Nanodegree Program of Udacity. 
@@ -43,6 +44,25 @@ value - (dict of strings) - either an offer id or transaction amount depending o
 
 The transactional data shows user purchases made on the app including the timestamp of purchase and the amount of money spent on a purchase. This transactional data also has a record for each offer that a user receives as well as a record for when a user actually views the offer. There are also records for when a user completes an offer. 
 
+
+### Libraries and Dependency
+
+Below are the library and dependency needed to run the Jupter notebook
+- Pandas
+- Numpy
+- Math
+- Json
+- Matplotlib.pyplot
+-Seaborn
+-Sklearn
+from sklearn.linear_model 
+from sklearn.model_selection
+from sklearn.metrics 
+from sklearn.preprocessing
+from sklearn.ensemble
+from sklearn.tree 
+
+
 ### File Overview
 
 Starbucks_Capstone_notebook.ipynb:
@@ -65,6 +85,11 @@ This picture is to display how to setup a necessary environment in case we need 
 There is blog introducing how I analyze and visualize data: 
 https://medium.com/@forever.aiqi/starbucks-capstone-challenge-4509320cad74
 
+### Result
+
+In the notebook, I use three classical machine learning method: Logistic regression, decision tree and random forest model
+
+After tuning the parameter for decision tree and random forest model, the performance improves than the beginning of model, finally the decision tree shows best result among three models
 
 
 
